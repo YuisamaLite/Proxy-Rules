@@ -1,0 +1,30 @@
+#!name=macOS Overlay
+#!desc=适用于 macOS 的额外设置
+
+[General]
+http-listen = 0.0.0.0
+socks5-listen = 0.0.0.0
+
+[Rule]
+PROCESS-NAME,aria2c,DIRECT
+DOMAIN,store.steampowered.com,通用代理
+DOMAIN,api.steampowered.com,通用代理
+DOMAIN-KEYWORD,steamcommunity,通用代理
+PROCESS-NAME,steam*,DIRECT
+PROCESS-NAME,Steam Helper,DIRECT
+DOMAIN,www.bilibili.com,哔哩哔哩
+DOMAIN,softwareupdate.vmware.com,DIRECT
+DOMAIN,officeclient.microsoft.com,通用代理
+DOMAIN,self.events.data.microsoft.com,通用代理
+DOMAIN-SUFFIX,officeapps.live.com,通用代理
+DOMAIN-SUFFIX,azurewebsites.net,通用代理
+DOMAIN-SUFFIX,office.com,DIRECT
+DOMAIN-SUFFIX,serifservices.com,DIRECT
+DOMAIN-SUFFIX,serif.com,DIRECT
+DOMAIN-SUFFIX,cdn.office.net,DIRECT
+DOMAIN-SUFFIX,templates.cdn.office.net,DIRECT
+DOMAIN-SUFFIX,epicgames.com,DIRECT
+DOMAIN-SUFFIX,unrealengine.com,DIRECT
+DOMAIN-KEYWORD,officecdn-microsoft-com,DIRECT
+DOMAIN-KEYWORD,epicgames-download,DIRECT
+DOMAIN,downloads.imazing.com,DIRECT
