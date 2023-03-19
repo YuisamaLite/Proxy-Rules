@@ -1,0 +1,2 @@
+^http:\/\/\d+\.\d+\.\d+\.\d+\/\d+\/resolve\?host=api\.bilibili\.com url response-body "client_ip":"\d+\.\d+\.\d+\.\d+" response-body "client_ip":"108.177.97.104"
+^http:\/\/\d+\.\d+\.\d+\.\d+\/\d+\/resolve\?host=grpc\.biliapi\.net url response-body "client_ip":"\d+\.\d+\.\d+\.\d+" response-body "client_ip":"108.177.97.104"

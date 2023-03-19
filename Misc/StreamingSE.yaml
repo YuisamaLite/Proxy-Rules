@@ -1,0 +1,17 @@
+payload:
+  # > bilibili
+  - DOMAIN,www.bilibili.com
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,grpc.biliapi.net
+  # > 愛奇藝台灣站 & iQIYI
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN,cache-video.iq.com
+  - DOMAIN,intl.iqiyi.com
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN,intl-subscription.iqiyi.com
+  # > 芒果TV国际
+  - DOMAIN-SUFFIX,api.mgtv.com
+  # > WeTV
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
