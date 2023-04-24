@@ -16,3 +16,4 @@ payload:
   - DOMAIN,securemetrics.apple.com
   - DOMAIN,securemetrics.apple.com.cn
   - DOMAIN,smp-device-content.apple.com
+  - DOMAIN,openai.com
